@@ -1,0 +1,15 @@
+# requirements.txt
+librosa
+numpy
+torch
+Pillow
+Levenshtein
+scikit-learn
+torchvision
+torchaudio
+torchtext
+opencv-python
+pytesseract
+transformers
+tqdm
+webrtcvad

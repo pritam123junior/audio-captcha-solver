@@ -117,7 +117,7 @@ def predict(audio_file, image_file):
     print(f"Character-Level Accuracy: {accuracy:.2f}%")
 
 # Test prediction
-audio_path = "data/audio/captcha_0008.wav"
-image_path = "data/images/captcha_0008.png"
+audio_path = "data/audio/captcha_0031.wav"
+image_path = "data/images/captcha_0031.png"
 
 predict(audio_path, image_path)

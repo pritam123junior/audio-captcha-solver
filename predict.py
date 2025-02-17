@@ -38,7 +38,7 @@ class CRNN(nn.Module):
 
 # Load trained CRNN model
 crnn_model = CRNN().to(device)
-crnn_model.load_state_dict(torch.load('model_checkpoint_epoch_4.pth'))
+crnn_model.load_state_dict(torch.load('model_checkpoint_epoch_10.pth'))
 crnn_model.eval()
 
 #  Data Augmentation (Pitch Shift & Time Stretch)
